@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -283,7 +285,7 @@ export default function Component() {
   )
 }
 
-function ArrowLeftIcon(props) {
+function ArrowLeftIcon(props: any) {
   return (
     <svg
       {...props}
@@ -304,7 +306,7 @@ function ArrowLeftIcon(props) {
 }
 
 
-function ArrowRightIcon(props) {
+function ArrowRightIcon(props: any) {
   return (
     <svg
       {...props}
@@ -325,7 +327,7 @@ function ArrowRightIcon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props: any) {
   return (
     <svg
       {...props}
@@ -346,7 +348,7 @@ function BellIcon(props) {
 }
 
 
-function HeartIcon(props) {
+function HeartIcon(props: any) {
   return (
     <svg
       {...props}
@@ -366,7 +368,7 @@ function HeartIcon(props) {
 }
 
 
-function MapIcon(props) {
+function MapIcon(props: any) {
   return (
     <svg
       {...props}
@@ -388,7 +390,7 @@ function MapIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -410,7 +412,7 @@ function MenuIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
@@ -431,7 +433,7 @@ function SearchIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: any) {
   return (
     <svg
       {...props}
