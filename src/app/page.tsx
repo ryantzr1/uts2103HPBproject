@@ -222,7 +222,7 @@ export default function Component() {
                   />
                   <div className="flex flex-col">
                     <div className="font-semibold">Alice</div>
-                    <Button size="sm">Poke</Button>
+                    <Button size="sm">Poke 👉</Button>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -239,7 +239,7 @@ export default function Component() {
                   />
                   <div className="flex flex-col">
                     <div className="font-semibold">Bob</div>
-                    <Button size="sm">Poke</Button>
+                    <Button size="sm">Poke 👉</Button>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -256,7 +256,7 @@ export default function Component() {
                   />
                   <div className="flex flex-col">
                     <div className="font-semibold">Charlie</div>
-                    <Button size="sm">Poke</Button>
+                    <Button size="sm">Poke 👉</Button>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -273,7 +273,7 @@ export default function Component() {
                   />
                   <div className="flex flex-col">
                     <div className="font-semibold">David</div>
-                    <Button size="sm">Poke</Button>
+                    <Button size="sm">Poke 👉</Button>
                   </div>
                 </div>
               </div>
